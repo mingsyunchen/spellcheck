@@ -51,7 +51,7 @@ for i in range(len(response['flaggedTokens'])):
     offset=response["flaggedTokens"][i]["offset"]
     wrong=response["flaggedTokens"][i]["token"]
     correct=response["flaggedTokens"][i]["suggestions"][0]["suggestion"]
-    print(f"第{i+1}個錯誤:'{wrong}'"', 'f"修改後:'{correct}'")
+    st.write(f"第{i+1}個錯誤:'{wrong}'"', 'f"修改後:'{correct}'")
     
     x = text[:(offset+shift)]
     x1 = offset+shift
