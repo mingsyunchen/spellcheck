@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run spellcheck.py
+web: sh setup.sh && streamlit run SPLCHK_TRANS.py
