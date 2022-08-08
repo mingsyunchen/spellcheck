@@ -1,6 +1,6 @@
 import streamlit as st
-splchk_key = st.text_input('splchk_key:','splchk_key')
-trans_key = st.text_input('trans_key:','trans_key')
+splchk_key = st.text_input('splchk_key:')
+trans_key = st.text_input('trans_key:')
 
 from spellcheck import spellcheck as sc
 from translate import trans_zhHant, trans_jp, trans_ko
