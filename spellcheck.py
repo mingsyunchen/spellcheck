@@ -3,7 +3,8 @@
 import streamlit as st
 import requests, uuid, json
 
-api_key = "00a32000bff248c1bad065b386df32c2"
+print('SPLCHK_key:')
+api_key = input()
 endpoint = "https://api.bing.microsoft.com"
 url = f'{endpoint}/v7.0/SpellCheck'
 params = {
