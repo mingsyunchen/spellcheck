@@ -9,7 +9,7 @@ userinput = st.text_input('在這裡試著輸入一段英文句子吧:','write s
 
 
 
-subscriptionKey = 'c0e56791b3d846bfb303571c4de92506'
+subscriptionKey = ''
 endpointUrl = "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0"
 params = '&to=zh-Hant&to=ja&to=ko'
 constructed_url = f"{endpointUrl}{params}"
