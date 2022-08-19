@@ -1,6 +1,6 @@
 import requests, uuid, json
 
-subscription_Key = ''
+subscription_Key = 'c5a4176356284e948fcff1b2862b540d'
 endpoint = 'https://api.cognitive.microsofttranslator.com'
 path = '/translate'
 location = 'global'
