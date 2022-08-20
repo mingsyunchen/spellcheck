@@ -1,3 +1,5 @@
+# https://docs.microsoft.com/zh-tw/azure/cognitive-services/translator/
+
 import requests, uuid, json
 
 subscription_Key = ''
